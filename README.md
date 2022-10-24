@@ -1,5 +1,13 @@
-# Automating-Daily-tasks
-• Read in any excel sheet using ”openpyxl” and load workbook libraries </br>
-• Stored the data into customized dictionaries </br>
-• Outputs the display on a different file called output.py </br>
-• Wrote the output.py into a new excel sheet</br>
+# Automate Daily Routine Excel Task
+
+The program will do the followings.
+- Read the data from Excel spreadsheet
+- Counts the number of transactions for each supplier
+- Sum the transaction amount for each supplier
+- Prints the result to the custom file
+## Steps for development
+
+- Step 1 - Open and read the cells of an Excel document with openpyxl module
+- Step 2 - Calculate all the transaction amounts and store it in dictionary data structure
+- Step 3 - Write the data structure to .py file using pprint module
+
